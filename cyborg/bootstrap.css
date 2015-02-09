@@ -2376,14 +2376,14 @@ output {
   box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(147, 232, 83, 0.6);
 }
 .form-control::-moz-placeholder {
-  color: #888888;
+  color: #555555;
   opacity: 1;
 }
 .form-control:-ms-input-placeholder {
-  color: #888888;
+  color: #555555;
 }
 .form-control::-webkit-input-placeholder {
-  color: #888888;
+  color: #555555;
 }
 .form-control[disabled],
 .form-control[readonly],
@@ -5504,9 +5504,9 @@ button.close {
 }
 .modal-content {
   position: relative;
-  background-color: #202020;
+  background-color: #ffffff;
   border: 1px solid #999999;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(250, 250, 250, 0.2);
   border-radius: 6px;
   -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
   box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
@@ -5519,15 +5519,15 @@ button.close {
   top: 0;
   right: 0;
   left: 0;
-  background-color: #000000;
+  background-color: #ffffff;
 }
 .modal-backdrop.fade {
   opacity: 0;
   filter: alpha(opacity=0);
 }
 .modal-backdrop.in {
-  opacity: 0.5;
-  filter: alpha(opacity=50);
+  opacity: 0;
+  filter: alpha(opacity=0);
 }
 .modal-header {
   padding: 8px;
@@ -5543,10 +5543,10 @@ button.close {
 }
 .modal-body {
   position: relative;
-  padding: 10px;
+  padding: 20px;
 }
 .modal-footer {
-  padding: 10px;
+  padding: 20px;
   text-align: right;
   border-top: 1px solid #282828;
 }
