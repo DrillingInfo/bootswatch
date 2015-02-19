@@ -2376,14 +2376,14 @@ output {
   box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(147, 232, 83, 0.6);
 }
 .form-control::-moz-placeholder {
-  color: #555555;
+  color: #888888;
   opacity: 1;
 }
 .form-control:-ms-input-placeholder {
-  color: #555555;
+  color: #888888;
 }
 .form-control::-webkit-input-placeholder {
-  color: #555555;
+  color: #888888;
 }
 .form-control[disabled],
 .form-control[readonly],
@@ -5702,11 +5702,11 @@ button.close {
   font-weight: normal;
   line-height: 1.33;
   text-align: left;
-  background-color: #202020;
+  background-color: #ffffff;
   -webkit-background-clip: padding-box;
           background-clip: padding-box;
   border: 1px solid #999999;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(250, 250, 250, 0.2);
   border-radius: 6px;
   -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
@@ -5728,8 +5728,8 @@ button.close {
   margin: 0;
   padding: 8px 14px;
   font-size: 12px;
-  background-color: #181818;
-  border-bottom: 1px solid #0b0b0b;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #ebebeb;
   border-radius: 5px 5px 0 0;
 }
 .popover-content {
@@ -5756,7 +5756,7 @@ button.close {
   margin-left: -9px;
   border-bottom-width: 0;
   border-top-color: #666666;
-  border-top-color: rgba(0, 0, 0, 0.25);
+  border-top-color: rgba(250, 250, 250, 0.25);
   bottom: -9px;
 }
 .popover.top > .arrow:after {
@@ -5764,7 +5764,7 @@ button.close {
   bottom: 1px;
   margin-left: -8px;
   border-bottom-width: 0;
-  border-top-color: #202020;
+  border-top-color: #ffffff;
 }
 .popover.right > .arrow {
   top: 50%;
@@ -5772,21 +5772,21 @@ button.close {
   margin-top: -9px;
   border-left-width: 0;
   border-right-color: #666666;
-  border-right-color: rgba(0, 0, 0, 0.25);
+  border-right-color: rgba(250, 250, 250, 0.25);
 }
 .popover.right > .arrow:after {
   content: " ";
   left: 1px;
   bottom: -8px;
   border-left-width: 0;
-  border-right-color: #202020;
+  border-right-color: #ffffff;
 }
 .popover.bottom > .arrow {
   left: 50%;
   margin-left: -9px;
   border-top-width: 0;
   border-bottom-color: #666666;
-  border-bottom-color: rgba(0, 0, 0, 0.25);
+  border-bottom-color: rgba(250, 250, 250, 0.25);
   top: -9px;
 }
 .popover.bottom > .arrow:after {
@@ -5794,7 +5794,7 @@ button.close {
   top: 1px;
   margin-left: -8px;
   border-top-width: 0;
-  border-bottom-color: #202020;
+  border-bottom-color: #ffffff;
 }
 .popover.left > .arrow {
   top: 50%;
@@ -5802,13 +5802,13 @@ button.close {
   margin-top: -9px;
   border-right-width: 0;
   border-left-color: #666666;
-  border-left-color: rgba(0, 0, 0, 0.25);
+  border-left-color: rgba(250, 250, 250, 0.25);
 }
 .popover.left > .arrow:after {
   content: " ";
   right: 1px;
   border-right-width: 0;
-  border-left-color: #202020;
+  border-left-color: #ffffff;
   bottom: -8px;
 }
 .carousel {
